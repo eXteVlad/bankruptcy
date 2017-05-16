@@ -11,14 +11,14 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musemenu.js", "require.js", "asking.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musemenu.js", "webpro.js", "require.js", "asking.css"], "outOfDate":[]};
 </script>
   
   <title>Вопрос-ответ</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3916556066"/>
-  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=3949038396"/>
-  <link rel="stylesheet" type="text/css" href="css/asking.css?crc=4246724191" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=3971172218"/>
+  <link rel="stylesheet" type="text/css" href="css/asking.css?crc=188935641" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -35,10 +35,17 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="browser_width grpelem" id="u111-bw">
       <div id="u111"><!-- simple frame --></div>
      </div>
-     <div class="clearfix grpelem" id="u120-6"><!-- content -->
+     <div class="clearfix grpelem" id="u120-4"><!-- content -->
       <p>Банкротство физических лиц</p>
-      <p>2017</p>
      </div>
+     <div class="clearfix grpelem" id="u2159-4"><!-- content -->
+      <p>Контактная информация:</p>
+     </div>
+     <div class="clearfix grpelem" id="u2160-6"><!-- content -->
+      <p>Мельников Вадим Леонидович</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp; +79086138911</p>
+     </div>
+     <div class="grpelem" id="u2167"><!-- simple frame --></div>
     </div>
     <div class="browser_width colelem" id="u114-bw">
      <div id="u114"><!-- group -->
@@ -47,9 +54,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <div class="MenuItemContainer borderbox clearfix grpelem" id="u233"><!-- vertical box -->
          <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u234" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem" id="u237-4"><!-- content --><p>Главная</p></div></a>
         </div>
-        <div class="MenuItemContainer borderbox clearfix grpelem" id="u240"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix colelem" id="u241" href="contacts.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem" id="u242-4"><!-- content --><p>Контакты</p></div></a>
-        </div>
         <div class="MenuItemContainer borderbox clearfix grpelem" id="u247"><!-- vertical box -->
          <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive borderbox clearfix colelem" id="u250" href="asking.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap borderbox clearfix grpelem" id="u253-4"><!-- content --><p>Вопрос-ответ</p></div></a>
         </div>
@@ -57,11 +61,55 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="377" data-content-below-spacer="1140"></div>
+    <form class="form-grp clearfix colelem" id="widgetu2241" method="post" enctype="multipart/form-data" action="scripts/form-u2241.php"><!-- none box -->
+     <div class="fld-grp clearfix grpelem" id="widgetu2254" data-required="true"><!-- none box -->
+      <label class="fld-label actAsDiv clearfix grpelem" id="u2256-4" for="widgetu2254_input"><!-- content --><span class="actAsPara">Имя:</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u2257-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu2254_input" name="custom_U2254" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu2254_prompt" for="widgetu2254_input"><span class="actAsPara">Введите имя</span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem" id="widgetu2249" data-required="true" data-type="email"><!-- none box -->
+      <label class="fld-label actAsDiv clearfix grpelem" id="u2250-4" for="widgetu2249_input"><!-- content --><span class="actAsPara">Электронная почта:</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u2251-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu2249_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu2249_prompt" for="widgetu2249_input"><span class="actAsPara">Введите адрес электронной почты</span></label></span>
+     </div>
+     <div class="clearfix grpelem" id="u2242-4"><!-- content -->
+      <p>Отправка формы…</p>
+     </div>
+     <div class="clearfix grpelem" id="u2243-4"><!-- content -->
+      <p>На сервере произошла ошибка.</p>
+     </div>
+     <div class="clearfix grpelem" id="u2253-4"><!-- content -->
+      <p>Форма получена.</p>
+     </div>
+     <input class="submit-btn NoWrap grpelem" id="u2244-17" type="submit" value="" tabindex="4"/><!-- state-based BG images -->
+     <div class="fld-grp clearfix grpelem" id="widgetu2245" data-required="false"><!-- none box -->
+      <label class="fld-label actAsDiv clearfix grpelem" id="u2247-4" for="widgetu2245_input"><!-- content --><span class="actAsPara">Сообщение:</span></label>
+      <span class="fld-textarea actAsDiv clearfix grpelem" id="u2248-4"><!-- content --><textarea class="wrapped-input" id="widgetu2245_input" name="custom_U2245" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu2245_prompt" for="widgetu2245_input"><span class="actAsPara">Введите сообщение</span></label></span>
+     </div>
+    </form>
+    <div class="verticalspacer" data-offset-top="681" data-content-above-spacer="670" data-content-below-spacer="276"></div>
     <div class="browser_width colelem" id="u117-bw">
-     <div id="u117"><!-- simple frame --></div>
+     <div id="u117"><!-- group -->
+      <div class="clearfix" id="u117_align_to_page">
+       <div class="clearfix grpelem" id="u1432-4"><!-- content -->
+        <p>банкрот.рф - 2017</p>
+       </div>
+       <div class="clearfix grpelem" id="u1883-4"><!-- content -->
+        <p id="u1883-2">Расскажите друзьям:</p>
+       </div>
+       <div class="grpelem" id="u1877"><!-- custom html -->
+        <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,viber,whatsapp"></div>
+
+       </div>
+      </div>
+     </div>
     </div>
    </div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/u2244-17-r.png?crc=4225054084" alt=""/>
+   <img class="preload" src="images/u2244-17-m.png?crc=159655192" alt=""/>
+   <img class="preload" src="images/u2244-17-fs.png?crc=4081955482" alt=""/>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -69,7 +117,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 typeof $){b();$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');for(var f=$(".version"),j=0;j<Muse.assets.required.length;){var h=Muse.assets.required[j],i=h.match(/([\w\-\.]+)\.(\w+)$/),k=i&&i[1]?i[1]:null,i=i&&i[2]?i[2]:null;switch(i.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.addClass(k);var i=c(f.css("color")),l=c(f.css("background-color"));i!=0||l!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof a[h]&&(i!=
 a[h]>>>24||l!=(a[h]&16777215))&&Muse.assets.outOfDate.push(h)):j++;f.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&typeof $!="undefined"?Muse.assets.required.splice(j,1):j++;break;default:throw Error("Unsupported file type: "+i);}}f.remove()}if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",d&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),
 alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){d(!0)},5E3):d()}};
-var muse_init=function(){require.config({baseUrl:""});require(["museutils","whatinput","jquery.watch","jquery.musemenu"],function(){$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["museutils","whatinput","jquery.watch","jquery.musemenu","webpro"],function(){$(document).ready(function(){try{
 window.Muse.assets.check();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -77,6 +125,7 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#widgetu2241', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu2241 */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(a){if(a&&"function"==typeof a.notify?a.notify():Muse.Assert.fail("Error calling selector function: "+a),false)throw a;}})})};

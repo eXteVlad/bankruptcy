@@ -1,28 +1,36 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="банкрот.рф" resolutions="1x" timestamp="1494918333833">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="банкрот.рф" resolutions="1x" timestamp="1494923017142">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="master_______-a.css" crc="3949038396" ref="asking:index:contacts"/>
-    <file name="asking.css" crc="4246724191" ref="asking"/>
-    <file name="index.css" crc="4056375979" ref="index"/>
-    <file name="contacts.css" crc="4246724191" ref="contacts"/>
+    <file name="master_______-a.css" crc="3971172218" ref="asking:index"/>
+    <file name="asking.css" crc="188935641" ref="asking"/>
+    <file name="index.css" crc="4188792102" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:contacts:asking"/>
-    <file name="museutils.js" crc="4155826306" ref="index:contacts:asking"/>
-    <file name="whatinput.js" crc="86476730" ref="index:contacts:asking"/>
-    <file name="museconfig.js" crc="483509463" ref="index:contacts:asking"/>
+    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:asking"/>
+    <file name="museutils.js" crc="4155826306" ref="index:asking"/>
+    <file name="whatinput.js" crc="86476730" ref="index:asking"/>
+    <file name="museconfig.js" crc="483509463" ref="index:asking"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4034513494" ref="index"/>
-    <file name="jquery.watch.js" crc="117772946" ref="index:contacts:asking"/>
-    <file name="jquery.musemenu.js" crc="3765356681" ref="index:contacts:asking"/>
-    <file name="webpro.js" crc="4078243563" ref="index"/>
+    <file name="jquery.watch.js" crc="117772946" ref="index:asking"/>
+    <file name="jquery.musemenu.js" crc="3765356681" ref="index:asking"/>
+    <file name="webpro.js" crc="4078243563" ref="index:asking"/>
     <file name="musewpdisclosure.js" crc="3802586038" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:contacts:asking"/>
-    <file name="require.js" crc="228336483" ref="index:contacts:asking"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:asking"/>
+    <file name="require.js" crc="228336483" ref="index:asking"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="form_check.php" crc="474517188" ref="asking"/>
+    <file name="form_throttle.php" crc="495784356" ref="asking"/>
+    <file name="form_process.php" crc="4149049960" ref="asking"/>
+    <file name="form-u2241.php" crc="129043888" ref="asking"/>
   </folder>
   <folder name="images">
     <file name="empty-wallet.jpg" crc="4233298079" ref="index"/>
+    <file name="phone.png" crc="4042804508" ref="index"/>
+    <file name="u2244-17.png" crc="3894249338" ref="asking"/>
+    <file name="u2244-17-r.png" crc="4225054084" ref="asking"/>
+    <file name="u2244-17-m.png" crc="159655192" ref="asking"/>
+    <file name="u2244-17-fs.png" crc="4081955482" ref="asking"/>
   </folder>
-  <file name="index.html" crc="93701253" seo="true" mt="1494918219236" redirect="true"/>
-  <file name="contacts.html" crc="4105491011" seo="true" mt="1494915899719" redirect="true"/>
-  <file name="asking.html" crc="107877827" seo="true" mt="1494915899719" redirect="true"/>
+  <file name="index.html" crc="4111082481" seo="true" mt="1494923013465" redirect="true"/>
+  <file name="asking.html" crc="340667640" seo="true" mt="1494923013465" redirect="true"/>
 </manifest>
